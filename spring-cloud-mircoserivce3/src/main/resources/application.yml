@@ -3,6 +3,10 @@ spring:
     name: microservice3
   zipkin:
     base-url: http://zipkin-server/
+  sleuth:
+    enabled: true
+    sampler:
+      percentage: 1
 server:
   port: 8883
 eureka:
