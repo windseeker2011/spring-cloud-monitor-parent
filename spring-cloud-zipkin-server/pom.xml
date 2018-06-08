@@ -6,7 +6,7 @@
 		<artifactId>spring-cloud-monitor-parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>spring-cloud-mircoserivce2</artifactId>
+	<artifactId>spring-cloud-zipkin-server</artifactId>
 
 	<dependencies>
 		<!-- spring-cloud-starter-netflix-eureka-client -->
@@ -14,20 +14,15 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-		<!-- spring-cloud-starter-sleuth -->
+		<!-- zipkin-server -->
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-sleuth</artifactId>
+			<groupId>io.zipkin.java</groupId>
+			<artifactId>zipkin-server</artifactId>
 		</dependency>
-		<!-- spring-cloud-sleuth-zipkin -->
+		<!-- zipkin-autoconfigure-ui -->
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
-		</dependency>
-		<!-- lombok -->
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
+			<groupId>io.zipkin.java</groupId>
+			<artifactId>zipkin-autoconfigure-ui</artifactId>
 		</dependency>
 	</dependencies>
 </project>

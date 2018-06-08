@@ -1,10 +1,8 @@
 spring:
   application:
-    name: microservice1
-  zipkin:
-    base-url: http://zipkin-server/
+    name: zipkin-server
 server:
-  port: 8881
+  port: 9411
 eureka:
   client:
     service-url:

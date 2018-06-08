@@ -19,6 +19,7 @@
 		<module>spring-cloud-mircoserivce1</module>
 		<module>spring-cloud-mircoserivce2</module>
 		<module>spring-cloud-mircoserivce3</module>
+		<module>spring-cloud-zipkin-server</module>
 	</modules>
 
 	<properties>
