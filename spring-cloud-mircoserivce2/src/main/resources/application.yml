@@ -2,11 +2,15 @@ spring:
   application:
     name: microservice2
   zipkin:
-    base-url: http://zipkin-server/
+    sender:
+      type: kafka
   sleuth:
     enabled: true
     sampler:
       percentage: 1
+  kafka:
+    bootstrap-servers:
+    - localhost:9092,localhost:9093,localhost:9094
 server:
   port: 8882
 eureka:

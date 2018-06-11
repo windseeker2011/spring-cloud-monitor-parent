@@ -14,15 +14,15 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-		<!-- spring-cloud-starter-sleuth -->
+		<!-- spring-cloud-starter-zipkin -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-sleuth</artifactId>
+			<artifactId>spring-cloud-starter-zipkin</artifactId>
 		</dependency>
-		<!-- spring-cloud-sleuth-zipkin -->
+		<!-- spring-kafka -->
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
+			<groupId>org.springframework.kafka</groupId>
+			<artifactId>spring-kafka</artifactId>
 		</dependency>
 		<!-- lombok -->
 		<dependency>
